@@ -2,6 +2,8 @@
 
 > 💄 Pretty print html
 
+![stability](./html-cli.gif)
+
 [![npm version][2]][3]
 
 ## Installation
@@ -13,7 +15,7 @@ npm install -g html-cli
 ## Usage
 
 ```
-❯ node cli.js
+❯ html
 
   Pretty print html
 
