@@ -1,0 +1,40 @@
+{
+  "name": "html-cli",
+  "version": "1.0.0",
+  "description": "Pretty print html",
+  "license": "MIT",
+  "author": "Mario Nebl <hello@herebecode.com>",
+  "contributors": [
+    "Max Ogden <max@maxogden.com> (http://maxogden.com)",
+    "Nochum Sossonko <nsossonko@hotmail.com>",
+    "Einar Lielmanis <elfz@laacz.lv>"
+  ],
+  "scripts": {
+    "lint": "xo cli.js"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marionebl/html-cli.git"
+  },
+  "bin": {
+    "html": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/marionebl/html-cli"
+  },
+  "homepage": "https://github.com/marionebl/html-cli",
+  "dependencies": {
+    "get-stdin": "^5.0.1",
+    "globby": "^6.1.0",
+    "js-beautify": "^1.6.4",
+    "lodash": "^4.17.2",
+    "meow": "^3.7.0",
+    "sander": "^0.5.1"
+  },
+  "devDependencies": {
+    "xo": "^0.17.1"
+  }
+}
